@@ -1,0 +1,7 @@
+Model,Best_Params,RMSE,MAE,R2_Score
+Bagging,{'model__n_estimators': 100},302.108655802706,102.8605298913044,0.9094992607983646
+RandomForest,"{'model__max_depth': None, 'model__n_estimators': 100}",303.3614403507488,102.94342173913043,0.9087471273964148
+XGBoost,"{'model__learning_rate': 0.1, 'model__max_depth': 5, 'model__n_estimators': 200}",310.34966537464595,146.38709791100547,0.9044945066578354
+DecisionTree,{'model__max_depth': None},320.91273436726703,131.45051630434784,0.8978826134909579
+GradientBoosting,"{'model__learning_rate': 0.1, 'model__n_estimators': 200}",323.14456161257857,167.47157099093857,0.8964572984481045
+AdaBoost,"{'model__learning_rate': 0.1, 'model__n_estimators': 50}",441.55506707518686,325.01330122081947,0.806671654100719
