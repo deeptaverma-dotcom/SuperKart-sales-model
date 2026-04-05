@@ -1,0 +1,31 @@
+.github/
+    workflows/
+        pipeline.yml
+src/
+    data_preparation.py
+    deployment.py
+    model_evaluation.py
+    model_training.py
+artifacts/
+    logs/
+        experiment_log.csv
+        model_summary.txt
+    metrics/
+        model_results.csv
+    models/
+        RandomForest_best_model.pkl
+    plots/
+        actual_vs_predicted.png
+deployment/
+    Dockerfile
+    README.md
+    app.py
+    requirements.txt
+    sample_input.csv
+requirements.txt
+train_superkart.csv
+test_superkart.csv
+output_evaluation_summary.csv
+folder_structure.txt
+Sample1.gif
+Sample2.gif
