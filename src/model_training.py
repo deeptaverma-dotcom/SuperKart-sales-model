@@ -15,7 +15,7 @@ from sklearn.ensemble import BaggingRegressor, RandomForestRegressor, AdaBoostRe
 from xgboost import XGBRegressor
 
 HF_TOKEN = os.getenv("HF_TOKEN")
-HF_DATASET_REPO = "DeeptaV/SuperKart-dataset-v2"
+HF_DATASET_REPO = "DeeptaV/SuperKart-dataset"
 HF_MODEL_REPO = "DeeptaV/SuperKart-sales-model"
 
 login(token=HF_TOKEN)

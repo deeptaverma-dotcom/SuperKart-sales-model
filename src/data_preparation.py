@@ -8,8 +8,8 @@ HF_TOKEN = os.getenv("HF_TOKEN")
 
 if not HF_TOKEN:
     raise ValueError("HF_TOKEN environment variable is not set.It is missing. Add it in GitHub Secrets")
-    
-HF_DATASET_REPO = "DeeptaV/SuperKart-dataset-v2"
+
+HF_DATASET_REPO = "DeeptaV/SuperKart-dataset"
 
 login(token=HF_TOKEN)
 
