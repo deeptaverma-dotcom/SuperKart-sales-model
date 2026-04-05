@@ -1,0 +1,11 @@
+
+Best Model: RandomForest
+
+Performance Summary:
+           Model                                                                         Best_Params       RMSE        MAE  R2_Score
+    RandomForest {'model__max_depth': 20, 'model__min_samples_split': 2, 'model__n_estimators': 100} 279.773616  81.588168  0.931401
+         Bagging                              {'model__max_samples': 1.0, 'model__n_estimators': 50} 280.179835  78.095596  0.931201
+         XGBoost    {'model__learning_rate': 0.1, 'model__max_depth': 7, 'model__n_estimators': 200} 292.469194 115.020483  0.925034
+GradientBoosting   {'model__learning_rate': 0.05, 'model__max_depth': 5, 'model__n_estimators': 200} 295.051649 131.916653  0.923704
+    DecisionTree                          {'model__max_depth': None, 'model__min_samples_split': 10} 306.410541  99.710668  0.917716
+        AdaBoost                           {'model__learning_rate': 0.01, 'model__n_estimators': 50} 449.957095 346.419979  0.822561

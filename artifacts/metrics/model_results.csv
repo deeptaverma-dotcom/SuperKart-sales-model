@@ -1,0 +1,7 @@
+Model,Best_Params,RMSE,MAE,R2_Score
+RandomForest,"{'model__max_depth': 20, 'model__min_samples_split': 2, 'model__n_estimators': 100}",279.7736159550015,81.58816845200573,0.9314006094515306
+Bagging,"{'model__max_samples': 1.0, 'model__n_estimators': 50}",280.17983464152013,78.09559566457503,0.9312012583828106
+XGBoost,"{'model__learning_rate': 0.1, 'model__max_depth': 7, 'model__n_estimators': 200}",292.4691942433261,115.02048329885932,0.9250335401313604
+GradientBoosting,"{'model__learning_rate': 0.05, 'model__max_depth': 5, 'model__n_estimators': 200}",295.0516493562904,131.91665268089162,0.9237038121558206
+DecisionTree,"{'model__max_depth': None, 'model__min_samples_split': 10}",306.4105407695332,99.71066788453354,0.9177162363522511
+AdaBoost,"{'model__learning_rate': 0.01, 'model__n_estimators': 50}",449.9570952383178,346.4199787410213,0.8225610518314401
